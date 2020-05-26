@@ -1,0 +1,32 @@
+{
+  "name": "nftmanager",
+  "version": "1.0.0",
+  "description": "NFT Management Wallet for DAOStack DAOs",
+  "main": "networks.js",
+  "dependencies": {
+    "@daostack/arc": "0.0.1-rc.41",
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0",
+    "@openzeppelin/test-environment": "^0.1.4",
+    "truffle": "^5.1.26"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.5",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "build": "truffle compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dOrgTech/NFTManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dOrgTech/NFTManager/issues"
+  },
+  "homepage": "https://github.com/dOrgTech/NFTManager#readme"
+}
